@@ -5,6 +5,7 @@ class Tareas {
 
     _listado = {};
 
+    // Get de array 
     get listadoArr() {
         const listado = [];
         
