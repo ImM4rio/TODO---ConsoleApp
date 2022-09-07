@@ -1,7 +1,5 @@
 require('colors');
 
-// const { mostrarMenu, pausa } = require('./helpers/mensajes');
-
 const { guardarDB, leerDB } = require( './helpers/guardarArchivo' );
 const { inquirerMenu, pausa, leerInput, listadoTareasBorrar, confirmar, mostrarListadoChecklist } = require('./helpers/inquirer');
 const Tarea = require( './models/tarea' );
