@@ -79,9 +79,14 @@ const main = async() =>{
                     
                 break;
 
+            case '0':
+                
+                break;
+
             default:
                 console.log('Estás dentro del default');
                 break;
+
         }
 
 
