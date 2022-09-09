@@ -92,21 +92,9 @@ const main = async() =>{
 
         guardarDB( tareas.listadoArr );
         
-        // console.log( {opt} );
-
-        // const tareas = new Tareas();
-        // const tarea = new Tarea('Comprar comida');
-        
-        // Crea un objeto con el id de la tarea y le pasa la tarea completa, es decir, para ese id la tarea es...
-        //tareas._listado[ tarea.id ] = tarea;
-        
-        //console.log(tareas);
-        
         await pausa();
 
         
-        // if ( opt !== '0' ) await pausa();
- 
     } while ( opt !== '0');
 
 
