@@ -1,1 +1,1 @@
-Ejecutar con `node ./index.js`
+Ejecutar con `node ./app.js`
